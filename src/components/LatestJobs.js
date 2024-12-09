@@ -43,17 +43,17 @@ const LatestJobs = () => {
                                 <div className="flex items-center gap-5">
                                     {
                                         job?.remote === true && (
-                                            <div className="bg-[#f8f1fc] rounded-full px-1 py-1">
+                                            <div className="bg-[#f8f1fc] rounded-full px-2 py-1">
                                                 <p className="text-[#b1a0cd]">Remote</p>
                                             </div>
                                         )
                                     }
 
-                                    <div className="flex items-center justify-center bg-[#edf1f1] gap-2 rounded-full px-1 py-1">
+                                    <div className="flex items-center justify-center bg-[#edf1f1] gap-2 rounded-full px-2 py-1">
                                         <IoLocationOutline />
                                         <p className="text-[#027055]">{job?.country}</p>
                                     </div>
-                                    <div className="flex items-center justify-center bg-[#edf1f1] gap-2 rounded-full px-1 py-1">
+                                    <div className="flex items-center justify-center bg-[#edf1f1] gap-2 rounded-full px-2 py-1">
                                         {/* <IoLocationOutline /> */}
                                         <p className="text-[#027055]">{job?.pay}</p>
                                     </div>
