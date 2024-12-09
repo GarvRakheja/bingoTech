@@ -29,7 +29,7 @@ export default function Navbar() {
                             <p>+ 84-65854332</p>
                         </div>
                         <div className="flex items-center gap-2 text-white">
-                            <CiMail/>
+                            <CiMail />
                             <p>hello@super.com</p>
                         </div>
                     </div>
